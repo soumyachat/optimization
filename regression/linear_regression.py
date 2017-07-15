@@ -1,8 +1,9 @@
-'''
+"""
 Linear Regression Class
-'''
+"""
 import numpy as np
-from Regression import RegressionBase
+from regression import RegressionBase
+
 
 class LinearRegression(RegressionBase):
     def __init__(self):
